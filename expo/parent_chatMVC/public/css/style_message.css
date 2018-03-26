@@ -1,0 +1,153 @@
+.container {
+	margin: 80px;
+	padding: 50px 20px;
+	height: 100vh;
+}
+
+.contenue {
+	margin-bottom: 50px;
+}
+
+.membres {
+	border: 1px #d1d1d1 solid;
+	width: 30%;
+	float: left;
+	height: 85vh;
+	overflow-y: visible;
+	
+	   background-color: white;
+   border: 1px solid #d7d7d7;
+   border-radius: 2px;
+   color: #333333;
+   font-size: 2.5vh;
+   -moz-box-shadow: 0px 1px 1px 0px #9b9b9b;
+-webkit-box-shadow: 0px 1px 1px 0px #9b9b9b;
+-o-box-shadow: 0px 1px 1px 0px #9b9b9b;
+box-shadow: 0px 1px 1px 0px #9b9b9b;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#9b9b9b, Direction=180, Strength=1);
+}
+
+.avatar {
+	border-radius: 100%;
+	height: 200px;
+	width: 200px;
+}
+
+.membres_avatar {
+	padding-left: 22%;
+	padding-bottom: 20%;
+}
+
+.membres_avatar > h1 {
+	color: #6edf39 !important;
+	font-size: 40px;
+	transform: translate(-75%, -115%)!important;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.chat {
+	border: 1px #d1d1d1 solid;
+	width: 68%;
+	margin-left: 32%;
+	
+	   background-color: white;
+   border: 1px solid #d7d7d7;
+   border-radius: 2px;
+   color: #333333;
+   font-size: 2.5vh;
+   -moz-box-shadow: 0px 1px 1px 0px #9b9b9b;
+-webkit-box-shadow: 0px 1px 1px 0px #9b9b9b;
+-o-box-shadow: 0px 1px 1px 0px #9b9b9b;
+box-shadow: 0px 1px 1px 0px #9b9b9b;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#9b9b9b, Direction=180, Strength=1);
+}
+
+.messagerie {
+	padding-left: 5%;
+	height: 61vh;
+	overflow: scroll;
+
+}
+
+.chat > h1 {
+	color: #6edf39 !important;
+	font-size: 40px;
+	transform: translate(-45%, -115%)!important;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.avatar2 {
+	border-radius: 100%;
+	height: 100px;
+	width: 100px;
+}
+
+.avatar3 {
+	border-radius: 100%;
+	height: 80px;
+	width: 80px;
+
+}
+
+.boxA {
+	float: left;
+}
+
+.boxB {
+	height: 175px;
+	width: 75%;
+	padding-left: 20%;
+}
+
+.boxB > a {
+	color: #6edf39 !important;
+	text-decoration: underline !important;
+	margin-left: 80%;
+}
+
+.size {
+	font-size: 14px;
+}
+
+
+.message {
+	border-bottom: 1px #d1d1d1 solid;*/
+}
+
+.reponse {
+	padding-left: 20%;
+	border-bottom: 1px #d1d1d1 solid;
+}
+
+.post_messagerie {
+	background-color: #000000;
+	height: 60px;
+}
+
+input[type="text"] {
+	width: 65%;
+	height: 50%;
+	border-radius: 7px;
+	border: none;
+	margin: 10px 10px;
+	padding: 5px;
+}
+
+button[type="submit"] {
+	height: 60%;
+	width: 15%;
+	background-color: #6edf39;
+	border: none;
+	border-radius: 5px;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+h2
+{
+font-size : 22px;
+font-weight:bold;
+}

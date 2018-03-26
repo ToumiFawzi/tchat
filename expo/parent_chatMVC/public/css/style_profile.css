@@ -1,0 +1,126 @@
+html, body {
+   margin: 0;
+   padding: 0;
+   height: 100%;
+   width: 100%;
+   font-family: 'Verdana', 'DejaVu Sans';
+   background-color: #f7f7f7;
+}
+
+
+.row {
+   margin: 0;
+}
+
+.avatarnom {
+   margin: -14vh 2vh 2vh 2vh;
+   text-align: center;
+}
+
+.avatar {
+   width: 20vh;
+   height: 20vh;
+   background-image: url('../../images/noavatar.svg');
+   background-size: 103%;
+   background-position:center;
+   border-radius: 100%;  
+   margin: 2.5vh auto;
+   border-width: 1px;
+   border-style: solid;
+   border-color: rgba(0, 0, 0, 0.3);
+   transition-property: border-radius;
+   transition-duration: 0.2s;
+   
+}
+
+.avatar:hover {
+   border-radius: 2px;
+}
+
+.parentsname {
+   font-size: 5vh;
+}
+
+.colonne{
+   background-color: white;
+   border: 1px solid #d7d7d7;
+   border-radius: 2px;
+   padding: 2vh;
+   margin: 13vh 2vh 2vh 2vh;
+   height: 100%;
+   color: #333333;
+   font-size: 2.5vh;
+   -moz-box-shadow: 0px 1px 1px 0px #9b9b9b;
+-webkit-box-shadow: 0px 1px 1px 0px #9b9b9b;
+-o-box-shadow: 0px 1px 1px 0px #9b9b9b;
+box-shadow: 0px 1px 1px 0px #9b9b9b;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#9b9b9b, Direction=180, Strength=1);
+}
+
+.colonnecontent {
+   float: left;
+}
+
+.elementlist {
+   color: #80b62a;
+}
+
+.categorie {
+   font-size: 5vh;
+   color: #80b62a;
+   text-align: center;
+   margin-top: 10px;
+}
+
+.enfant {
+   margin: 3vh 0;
+}
+
+.avatarenfant {
+   width: 10vh;
+   height: 10vh;
+   background-image: url('../../images/noavatar.svg');
+   background-size: 103%;
+   background-position:center;
+   border-radius: 100%;
+   border-width: 1px;
+   border-style: solid;
+   border-color: rgba(0, 0, 0, 0.3);
+   transition-property: border-radius;
+   transition-duration: 0.2s;
+   
+}
+
+.avatarenfant:hover {
+   border-radius: 2px;
+}
+
+.kidsname {
+   font-weight: bold;
+}
+
+.kidsage {
+   float: right;
+}
+
+.kidsetablissement {
+   font-size: 2vh;
+   color: #80b62a;
+}
+
+.kidslevel {
+   float: right;
+   color: #80b62a;
+}
+
+th, td {
+   text-align: center;
+}
+
+thead {
+    height: 20px;
+}
+
+td > a {
+    color: #80b62a;
+}

@@ -1,0 +1,39 @@
+#edit {
+	margin-left: 40%;
+	margin-bottom: 10%;
+	
+}
+
+#author {
+	width: 28%;
+	border: 2px solid #6edf39;
+}
+
+#comment {
+	width: 30%;
+	border: 2px solid #6edf39;
+	border-radius: 8px;
+}
+
+#envoi  {
+	background-color: #6edf39;
+	height: 50px;
+	width: 150px;
+	border: none;
+	color: #ffffff;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-radius: 5px;
+	margin-top: 20px;	
+}
+
+label {
+	font-size: 16px;
+	font-style: italic;
+}
+
+.commentaire {
+	margin-top: 20px;
+}
+

@@ -1,0 +1,41 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+header {
+
+}
+
+ul {
+	margin-left: 52%;
+	transform: translateY(-300%);
+
+}
+
+li {
+	display: inline;
+	background-color: #000000;
+	padding: 7px 10px;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+li:hover {
+	padding: 13px 10px;
+}
+
+a {
+	cursor: pointer;
+}
+
+.logo_colibri {
+	height: 150px;
+	margin: 5px;
+}
+
+
